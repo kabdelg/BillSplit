@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="billsplit.pma.hdm.de.billsplit.MainActivity"
+    android:background="@color/background">
+
+    <ScrollView
+        android:id="@+id/scroll_list"
+        android:layout_width="270dp"
+        android:layout_height="380dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/go_button"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/l_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/name1"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name 1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name2"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name 2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name3"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name 3"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name4"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name 4"
+                android:inputType="textPersonName" />
+
+            <ImageButton
+                android:id="@+id/plus_button"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:elevation="20dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/plus" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        <Button
+            android:id="@+id/go_button"
+            android:layout_width="224dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Lasst uns Abrechnen !"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_weight="1"
+            android:text="Splitting made Easy"
+            android:textColor="@color/white"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appname"
+            android:layout_marginBottom="37dp"
+            android:layout_above="@+id/scroll_list"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="164dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:text="BillSplit"
+            android:textColor="@color/white"
+            android:textSize="45dip"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_above="@+id/slogan"
+            android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

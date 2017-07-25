@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkerBackground">
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Speise"
+        android:textColor="@color/white"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/minus_price"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/button"
+        android:text="-"
+        android:layout_below="@+id/tvPrice"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:id="@+id/plus_price"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="+"
+        android:layout_alignBottom="@+id/price"
+        android:layout_toEndOf="@+id/quantityView" />
+
+    <TextView
+        android:id="@+id/quantityView"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/plus_price"
+        android:layout_toEndOf="@+id/minus_price"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="Anzahl"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/minus_price"
+        android:layout_toEndOf="@+id/plus_price"
+        android:ems="10"
+        android:hint="Preis"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/confirmQP"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button"
+        android:text="Auswahl hinzufügen"
+        android:layout_below="@+id/quantityView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

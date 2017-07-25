@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dragLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/nameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="4"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/dragDropRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/nameLayout"
+        android:layout_weight="1"
+        android:background="@color/darkerBackground"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/toOverviewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Übersicht anzeigen"
+            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

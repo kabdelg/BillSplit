@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="name5"></item>
+    <item type="id" name="name6"></item>
+    <item type="id" name="name7"></item>
+    <item type="id" name="name8"></item>
+    <item type="id" name="name9"></item>
+    <item type="id" name="name10"></item>
+
+    <item type="id" name="nameDrop1"></item>
+    <item type="id" name="nameDrop2"></item>
+    <item type="id" name="nameDrop3"></item>
+    <item type="id" name="nameDrop4"></item>
+    <item type="id" name="nameDrop5"></item>
+    <item type="id" name="nameDrop6"></item>
+    <item type="id" name="nameDrop7"></item>
+    <item type="id" name="nameDrop8"></item>
+    <item type="id" name="nameDrop9"></item>
+    <item type="id" name="nameDrop10"></item>
+
+    <item type="id" name="priceDrop1"></item>
+    <item type="id" name="priceDrop2"></item>
+    <item type="id" name="priceDrop3"></item>
+    <item type="id" name="priceDrop4"></item>
+    <item type="id" name="priceDrop5"></item>
+    <item type="id" name="priceDrop6"></item>
+    <item type="id" name="priceDrop7"></item>
+    <item type="id" name="priceDrop8"></item>
+    <item type="id" name="priceDrop9"></item>
+    <item type="id" name="priceDrop10"></item>
+
+    <item type="id" name="drag2"></item>
+    <item type="id" name="drag3"></item>
+    <item type="id" name="drag4"></item>
+    <item type="id" name="drag5"></item>
+    <item type="id" name="drag6"></item>
+    <item type="id" name="drag7"></item>
+    <item type="id" name="drag8"></item>
+    <item type="id" name="drag9"></item>
+    <item type="id" name="drag10"></item>
+
+    <item type="id" name="drag11"></item>
+    <item type="id" name="drag12"></item>
+    <item type="id" name="drag13"></item>
+    <item type="id" name="drag14"></item>
+    <item type="id" name="drag15"></item>
+    <item type="id" name="drag16"></item>
+    <item type="id" name="drag17"></item>
+    <item type="id" name="drag18"></item>
+    <item type="id" name="drag19"></item>
+    <item type="id" name="drag20"></item>
+
+    <item type="id" name="drag21"></item>
+    <item type="id" name="drag22"></item>
+    <item type="id" name="drag23"></item>
+    <item type="id" name="drag24"></item>
+    <item type="id" name="drag25"></item>
+    <item type="id" name="drag26"></item>
+    <item type="id" name="drag27"></item>
+    <item type="id" name="drag28"></item>
+    <item type="id" name="drag29"></item>
+    <item type="id" name="drag30"></item>
+
+    <item type="id" name="drag31"></item>
+    <item type="id" name="drag32"></item>
+    <item type="id" name="drag33"></item>
+    <item type="id" name="drag34"></item>
+    <item type="id" name="drag35"></item>
+    <item type="id" name="drag36"></item>
+    <item type="id" name="drag37"></item>
+    <item type="id" name="drag38"></item>
+    <item type="id" name="drag39"></item>
+    <item type="id" name="drag40"></item>
+
+</resources>

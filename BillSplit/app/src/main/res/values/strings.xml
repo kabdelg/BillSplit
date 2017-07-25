@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BillSplit</string>
+    <string name="next">Weiter</string>
+    <string name="skip">Skip</string>
+    <string name="start">Los gehts!</string>
+
+    <string name="slide_1_title">Willkommen bei BillSplit!</string>
+    <string name="slide_1_beschr">Die einfache und bequeme Lösung um Restaurantrechnungen aufzuteilen!</string>
+
+    <string name="slide_2_title">Wo wart ihr essen ?</string>
+    <string name="slide_2_beschr">Wählt eins der vorgegeben Restaurants aus oder wählt die Kategorie Andere falls ihr wo anders essen wart!</string>
+
+    <string name="slide_3_title">Was habt ihr gegessen ?</string>
+    <string name="slide_3_beschr">Wählt eure Speisen und Getränke aus welche ihr aufteilen möchtet!</string>
+
+    <string name="slide_4_title">Teilt eure Rechnung auf!</string>
+    <string name="slide_4_beschr">Zieht beguem per Drag and Drop eure Speisen und Getränke auf die jeweilige Person!</string>
+</resources>
